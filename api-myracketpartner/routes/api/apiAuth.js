@@ -10,7 +10,7 @@ router.post("/auth", (req, res) => {
 
   dbConn.query(
     `SELECT id, username, email, password FROM users WHERE email = 
-    "${data.email}" AND password = MD5("${data.password}")`,
+    "${data.email}" AND password = "${data.password}"`,
     (err, rows) => {
       console.log(rows)
       if (err) throw err;
