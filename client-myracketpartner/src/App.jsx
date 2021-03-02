@@ -1,7 +1,7 @@
 import React from 'react';
 import { Router, Route, Redirect, Switch } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
-import Main from "./components/Main/Main";
+import Layout from "./components/Layout/Layout";
 
 const App = () => {
 
@@ -10,8 +10,8 @@ const App = () => {
   return (
     <Router history={history}>
        <Switch>
-        <Route exact path="/Main" component={Main} />
-        <Redirect to="/Main" /> 
+        <Route exact path="/" component={Layout} />
+        <Redirect to="/" /> 
       </Switch>
     </Router>
   );
