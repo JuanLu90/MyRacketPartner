@@ -3,8 +3,7 @@ import React from "react";
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  min-height: 100vh;
-  padding-top: 60px;
+  height: 200px;
 `;
 
 const Footer = () => {
