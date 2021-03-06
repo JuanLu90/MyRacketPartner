@@ -1,10 +1,13 @@
 // DEPENDENCES
 import React from "react";
 
+// CSS
+import './Header.css';
+
 const Header = () => {
   return (
-      <div>
-        <h1>Header</h1>
+      <div className="header">
+        <div>this is the new navbar</div>
       </div>
   );
 };

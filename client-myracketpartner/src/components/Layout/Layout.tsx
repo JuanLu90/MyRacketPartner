@@ -6,9 +6,12 @@ import Header from '../Header/Header';
 import Main from '../Main/Main';
 import Footer from '../Footer/Footer';
 
+// CSS
+import './Layout.css';
+
 const Layout = () => {
   return (
-      <div>
+      <div className="layout">
         <Header />
         <Main />
         <Footer />

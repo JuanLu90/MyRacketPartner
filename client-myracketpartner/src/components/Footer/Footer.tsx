@@ -1,9 +1,12 @@
 // DEPENDENCES
 import React from "react";
 
+// CSS
+import './Footer.css';
+
 const Footer = () => {
   return (
-      <div>
+      <div className="footer">
         <h1>Footer</h1>
       </div>
   );
