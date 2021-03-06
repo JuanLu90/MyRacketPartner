@@ -1,14 +1,17 @@
 // DEPENDENCES
 import React from "react";
+import styled from 'styled-components';
 
-// CSS
-import './Footer.css';
+const Wrapper = styled.div`
+  min-height: 100vh;
+  padding-top: 60px;
+`;
 
 const Footer = () => {
   return (
-      <div className="footer">
+      <Wrapper>
         <h1>Footer</h1>
-      </div>
+      </Wrapper>
   );
 };
 

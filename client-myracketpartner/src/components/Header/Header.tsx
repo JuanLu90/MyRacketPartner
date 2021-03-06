@@ -1,14 +1,21 @@
 // DEPENDENCES
 import React from "react";
+import styled from 'styled-components';
 
-// CSS
-import './Header.css';
+const Wrapper = styled.div`
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: #28657B;
+`;
 
 const Header = () => {
   return (
-      <div className="header">
+      <Wrapper>
         <div>this is the new navbar</div>
-      </div>
+      </Wrapper>
   );
 };
 

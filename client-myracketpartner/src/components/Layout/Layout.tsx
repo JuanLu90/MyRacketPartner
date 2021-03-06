@@ -1,21 +1,23 @@
 // DEPENDENCES
 import React from "react";
+import styled from 'styled-components';
 
 // COMPONENTS
 import Header from '../Header/Header';
 import Main from '../Main/Main';
 import Footer from '../Footer/Footer';
 
-// CSS
-import './Layout.css';
+const Wrapper = styled.div`
+   background-color: #28657B;
+`;
 
 const Layout = () => {
   return (
-      <div className="layout">
+      <Wrapper>
         <Header />
         <Main />
         <Footer />
-      </div>
+      </Wrapper>
   );
 };
 
